@@ -25,7 +25,35 @@ using namespace std;
 
 int main() {
 
-   /* Type your code here. */
+int num1, num2;
+
+cout << "Increments of 5's Program" << endl;
+
+cout << "Please enter 2 integers (Second Integer can't be less than first) " << endl;
+
+cout << "First Number:";
+cin >> num1;
+
+cout << "Second Number:";
+cin >> num2;
+
+cout << "Your First Number:" << num1 << endl;
+cout << "Your Second Number:" << num2 << endl;
+
+while (num2 < num1)
+{
+cout << "Second integer can't be less than first" << endl;
+cout << "Enter Second Number:";
+cin >> num2;
+}
+
+
+for (int i = 0; i<= ((num2-num1)/5); i++)
+{
+cout << num1 + (i*5) << " ";
+}
+
+cout << endl;
 
    return 0;
 }
