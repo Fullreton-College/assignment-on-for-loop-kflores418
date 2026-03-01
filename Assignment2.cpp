@@ -28,7 +28,6 @@ int main() {
 int num1, num2;
 
 cout << "Increments of 5's Program" << endl;
-
 cout << "Please enter 2 integers (Second Integer can't be less than first) " << endl;
 
 cout << "First Number:";
